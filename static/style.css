@@ -1,0 +1,60 @@
+* {
+    font-family: "Segoe UI Semibold", "Noto Sans Medium", "Arial Unicode MS", -apple-system,
+        BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+
+    font-size: 22px;
+}
+
+body {
+    background-color: #232b30;
+    color: #C7CBD3;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: #C7CBD3 !important;
+}
+
+a[href*=User] {
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+span {
+    font-weight: lighter;
+    color: #697b87;
+}
+
+td.subj>a {
+    color: #FF7B3C !important;
+}
+
+em>span {
+    color: #2fc131 !important;
+}
+
+em {
+    color: #2fc131 !important;
+}
+
+input,
+select {
+    border-color: #4e5b65;
+    background-color: #232b30;
+    color: #C7CBD3;
+}
+
+form#translation {
+    display: none;
+}
+
+span.small a {
+    font-weight: bold;
+    color: #2fc131 !important;
+}
+
+div.grayline a {
+    font-weight: bold;
+    color: #697b87 !important;
+}
