@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <title>goldendict-multitran</title>
     <link href="/static/style.css" rel="stylesheet">
+
+    {% if theme == 'dark' %}
+    <link href="/static/dark.css" rel="stylesheet">
+    {% else %}
+    <link href="/static/light.css" rel="stylesheet">
+    {% endif %}
 </head>
 
 <body>

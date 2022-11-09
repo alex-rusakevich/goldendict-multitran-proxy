@@ -1,0 +1,39 @@
+body {
+    background-color: #232b30;
+    color: #C7CBD3;
+}
+
+a {
+    color: #C7CBD3 !important;
+}
+
+span {
+    color: #697b87;
+}
+
+td.subj>a {
+    color: #FF7B3C !important;
+}
+
+em>span {
+    color: #2fc131 !important;
+}
+
+em {
+    color: #2fc131 !important;
+}
+
+input,
+select {
+    border-color: #4e5b65;
+    background-color: #232b30;
+    color: #C7CBD3;
+}
+
+span.small a {
+    color: #2fc131 !important;
+}
+
+div.grayline a {
+    color: #697b87 !important;
+}
