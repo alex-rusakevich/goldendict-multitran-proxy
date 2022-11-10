@@ -46,8 +46,11 @@ def serve_modified():
     soup = BeautifulSoup(multitran_html, "html.parser")
     multitran_tree = soup.find("form", id="translation").parent
 
-    # Removing all unneeded
-    multitran_tree.select_one("a[href*='google']").parent.parent.decompose()
+    if config["UI"]["hide_google_forvo"] == "true":
+        multitran_tree.select_one("a[href*='google']").parent.parent.decompose()
+
+    if config["UI"]["hide_search"] == "true":
+        multitran_tree.select_one("form#translation").decompose()
 
     multitran_html = str(multitran_tree)
 

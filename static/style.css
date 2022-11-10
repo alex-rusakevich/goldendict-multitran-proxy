@@ -33,10 +33,6 @@ span {
     font-weight: lighter;
 }
 
-form#translation {
-    display: none;
-}
-
 span.small a {
     font-weight: bold;
 }
